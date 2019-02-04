@@ -1,0 +1,26 @@
+﻿@{
+    string hello = "HelloWorld";
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@hello</title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <script src="http://js.api.here.com/v3/3.0/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://js.api.here.com/v3/3.0/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <script>
+        var platform = new H.service.Platform({
+            'app_id': '{YOUR_APP_ID}',
+            'app_code': '{YOUR_APP_CODE}'
+        });
+
+        var defaultLayers = platform.createDefaultLayers();
+        var map = new H.map
+
+    </script>
+</body>
+</html>
